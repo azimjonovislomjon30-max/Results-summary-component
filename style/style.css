@@ -3,29 +3,29 @@
 }
 
 @font-face {
-  font-family: "Hanken Grotesk";
-  src: url("HankenGrotesk-Bold.woff2") format("woff2"), url("HankenGrotesk-Bold.woff") format("woff");
+  font-family: "Hanken bold";
+  src: url("/fonts/HankenGrotesk-Bold.woff2") format("woff2"), url("/fonts/HankenGrotesk-Bold.woff") format("woff");
   font-weight: bold;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
-  font-family: "Hanken Grotesk";
-  src: url("HankenGrotesk-ExtraBold.woff2") format("woff2"), url("HankenGrotesk-ExtraBold.woff") format("woff");
+  font-family: "Hanken ExtraBold";
+  src: url("/fonts/HankenGrotesk-ExtraBold.woff2") format("woff2"), url("/fonts/HankenGrotesk-ExtraBold.woff") format("woff");
   font-weight: bold;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
-  font-family: "Hanken Grotesk";
-  src: url("HankenGrotesk-Medium.woff2") format("woff2"), url("HankenGrotesk-Medium.woff") format("woff");
+  font-family: "Hanken Medium";
+  src: url("/fonts/HankenGrotesk-Medium.woff2") format("woff2"), url("/fonts/HankenGrotesk-Medium.woff") format("woff");
   font-weight: 500;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
-  font-family: "Hanken Grotesk";
-  src: url("HankenGrotesk-Regular.woff2") format("woff2"), url("HankenGrotesk-Regular.woff") format("woff");
+  font-family: "Hanken Regular";
+  src: url("/fonts/HankenGrotesk-Regular.woff2") format("woff2"), url("/fonts/HankenGrotesk-Regular.woff") format("woff");
   font-weight: normal;
   font-style: normal;
   font-display: swap;
