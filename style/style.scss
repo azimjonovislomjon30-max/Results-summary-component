@@ -51,18 +51,17 @@
 
     .result-box {
         width: 740px;
-        height: 515px;
+        height: 530px;
         background-color: #ffffff;
         display: flex;
         flex-direction: row;
         align-items: center;
-        border: 1px solid #1154e5;
         margin-top: 285px;
         border-radius: 20px;
 
         .result-card {
             width: 370px;
-            height: 515px;
+            height: 530px;
             border-radius: 20px;
             background-color: #4534f2;
             display: flex;
@@ -119,34 +118,80 @@
                 }
             }
         }
-        
+
         .summary-card {
             width: 370px;
-            height: 515px;
+            height: 530px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
 
-            // .summary-card-heading {
+            .summary-wrapper {
+                width: 290px;
+                height: 515px;
 
-            // }
+                .summary-card-heading {
+                    font-weight: bold;
+                    margin: 0;
+                    margin-top: 46px;
+                    margin-bottom: 36px;
+                    color: #2d3450;
+                }
+                .summary-card-status{
+                    margin: 0;
+                    padding: 0;
 
-            // .summary-card-status {
+                    .status-item {
+                        width: 290px;
+                        height: 56px;
+                        list-style: none;
+                        margin-bottom: 18px;
+                        border-radius: 15px;
+                        display: flex;
+                        flex-direction: row;
+                        align-items: center;
+                    }
+                    .status-item-reaction {
+                        background-color: #fff6f7;
+                    }
+                    .status-item-memory {
+                        background-color: #fffaf4;
+                    }
+                    .status-item-verbal {
+                        background-color: #f2fdf9;
+                    }
 
-            // }
+                    .status-item-visual {
+                        background-color: #f4f4fe;
+                    }
 
-            // .status-item-reaction {
+                    .status-item-icon{
+                        margin-left: 18px;
+                        margin-right: 18px;
+                    }
+                    .status-item-title{
+                        margin-right: 85px;
+                    }
+                    .status-item-result{
+                        margin-right: 8px;
+                    }
+                    .status-item-percent-label{
+                        display: none;
+                    }
+                    .status-item-max{
 
-            // }
+                    }
+                }
 
-            // .status-item-memory {
-
-            // }
-
-            // .status-item-verbal {
-
-            // }
-
-            // .status-item-visual {
-
-            // }
+                .continue-btn{
+                    width: 290px;
+                    height: 56px;
+                    margin-top: 24px;
+                    background-color: #303b59;
+                    color: #f7feff;
+                    border-radius: 26px;
+                }
+            }
         }
     }
 }

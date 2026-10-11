@@ -43,18 +43,17 @@
 }
 .container .result-box {
   width: 740px;
-  height: 515px;
+  height: 530px;
   background-color: #ffffff;
   display: flex;
   flex-direction: row;
   align-items: center;
-  border: 1px solid #1154e5;
   margin-top: 285px;
   border-radius: 20px;
 }
 .container .result-box .result-card {
   width: 370px;
-  height: 515px;
+  height: 530px;
   border-radius: 20px;
   background-color: #4534f2;
   display: flex;
@@ -108,5 +107,66 @@
 }
 .container .result-box .summary-card {
   width: 370px;
+  height: 530px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.container .result-box .summary-card .summary-wrapper {
+  width: 290px;
   height: 515px;
+}
+.container .result-box .summary-card .summary-wrapper .summary-card-heading {
+  font-weight: bold;
+  margin: 0;
+  margin-top: 46px;
+  margin-bottom: 36px;
+  color: #2d3450;
+}
+.container .result-box .summary-card .summary-wrapper .summary-card-status {
+  margin: 0;
+  padding: 0;
+}
+.container .result-box .summary-card .summary-wrapper .summary-card-status .status-item {
+  width: 290px;
+  height: 56px;
+  list-style: none;
+  margin-bottom: 18px;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.container .result-box .summary-card .summary-wrapper .summary-card-status .status-item-reaction {
+  background-color: #fff6f7;
+}
+.container .result-box .summary-card .summary-wrapper .summary-card-status .status-item-memory {
+  background-color: #fffaf4;
+}
+.container .result-box .summary-card .summary-wrapper .summary-card-status .status-item-verbal {
+  background-color: #f2fdf9;
+}
+.container .result-box .summary-card .summary-wrapper .summary-card-status .status-item-visual {
+  background-color: #f4f4fe;
+}
+.container .result-box .summary-card .summary-wrapper .summary-card-status .status-item-icon {
+  margin-left: 18px;
+  margin-right: 18px;
+}
+.container .result-box .summary-card .summary-wrapper .summary-card-status .status-item-title {
+  margin-right: 85px;
+}
+.container .result-box .summary-card .summary-wrapper .summary-card-status .status-item-result {
+  margin-right: 8px;
+}
+.container .result-box .summary-card .summary-wrapper .summary-card-status .status-item-percent-label {
+  display: none;
+}
+.container .result-box .summary-card .summary-wrapper .continue-btn {
+  width: 290px;
+  height: 56px;
+  margin-top: 24px;
+  background-color: #303b59;
+  color: #f7feff;
+  border-radius: 26px;
 }/*# sourceMappingURL=style.css.map */
