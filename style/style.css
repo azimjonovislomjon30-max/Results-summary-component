@@ -2,29 +2,34 @@
   display: none;
 }
 
+*:focus {
+  outline: 2px dotted #ff7500;
+  outline-offset: 3px;
+}
+
 @font-face {
-  font-family: "Hanken bold";
+  font-family: "Hankenbold";
   src: url("/fonts/HankenGrotesk-Bold.woff2") format("woff2"), url("/fonts/HankenGrotesk-Bold.woff") format("woff");
   font-weight: bold;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
-  font-family: "Hanken ExtraBold";
+  font-family: "HankenExtraBold";
   src: url("/fonts/HankenGrotesk-ExtraBold.woff2") format("woff2"), url("/fonts/HankenGrotesk-ExtraBold.woff") format("woff");
-  font-weight: bold;
+  font-weight: 900px;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
-  font-family: "Hanken Medium";
+  font-family: "HankenMedium";
   src: url("/fonts/HankenGrotesk-Medium.woff2") format("woff2"), url("/fonts/HankenGrotesk-Medium.woff") format("woff");
   font-weight: 500;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
-  font-family: "Hanken Regular";
+  font-family: "HankenRegular";
   src: url("/fonts/HankenGrotesk-Regular.woff2") format("woff2"), url("/fonts/HankenGrotesk-Regular.woff") format("woff");
   font-weight: normal;
   font-style: normal;
@@ -61,6 +66,7 @@
   align-items: center;
 }
 .container .result-box .result-card .result-title {
+  font-family: "Hankenbold" sans-serif;
   color: #cfccf7;
   margin: 0;
   margin-top: 45px;
@@ -76,7 +82,8 @@
 }
 .container .result-box .result-card .result-circle .result-score {
   font-size: 62px;
-  font-weight: 900;
+  font-family: "HankenExtraBold" sans-serif;
+  font-weight: 900px;
   color: #ffffff;
   margin: 0;
   margin-top: 64px;
@@ -154,19 +161,48 @@
   margin-right: 18px;
 }
 .container .result-box .summary-card .summary-wrapper .summary-card-status .status-item-title {
-  margin-right: 85px;
+  font-size: 18px;
+  font-weight: bold;
 }
 .container .result-box .summary-card .summary-wrapper .summary-card-status .status-item-result {
+  font-size: 18px;
+  font-weight: bold;
   margin-right: 8px;
 }
 .container .result-box .summary-card .summary-wrapper .summary-card-status .status-item-percent-label {
   display: none;
 }
+.container .result-box .summary-card .summary-wrapper .summary-card-status .status-item-max {
+  color: #a19fa4;
+}
+.container .result-box .summary-card .summary-wrapper .summary-card-status .status-item-title-color-red {
+  margin-right: 85px;
+  color: #e7666b;
+}
+.container .result-box .summary-card .summary-wrapper .summary-card-status .status-item-title-color-orange {
+  margin-right: 87px;
+  color: #f8b42f;
+}
+.container .result-box .summary-card .summary-wrapper .summary-card-status .status-item-title-color-green {
+  margin-right: 100px;
+  color: #1cb38a;
+}
+.container .result-box .summary-card .summary-wrapper .summary-card-status .status-item-title-color-blue {
+  margin-right: 105px;
+  color: #2f40b4;
+}
 .container .result-box .summary-card .summary-wrapper .continue-btn {
+  font-size: 18px;
+  font-weight: 600;
   width: 290px;
   height: 56px;
   margin-top: 24px;
   background-color: #303b59;
   color: #f7feff;
   border-radius: 26px;
+  cursor: pointer;
+}
+.container .result-box .summary-card .summary-wrapper .continue-btn:hover {
+  cursor: pointer;
+  background-color: #563bf8;
 }/*# sourceMappingURL=style.css.map */
