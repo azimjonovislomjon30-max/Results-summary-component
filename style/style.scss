@@ -73,7 +73,7 @@
             align-items: center;
 
             .result-title {
-                font-family: "Hankenbold" sans-serif;
+                font-family: "Hankenbold" 'Times New Roman', Times, serif;
                 color: #cfccf7;
                 margin: 0;
                 margin-top: 45px;
@@ -89,7 +89,7 @@
 
                 .result-score {
                     font-size: 62px;
-                    font-family: "HankenExtraBold" sans-serif;
+                    font-family: "HankenExtraBold" 'Times New Roman', Times, serif;
                     font-weight: 900px;
                     color: #ffffff;
                     margin: 0;
@@ -99,6 +99,7 @@
                 }
 
                 .result-score-of {
+                    font-family: "HankenMedium" 'Times New Roman', Times, serif;
                     color: #837ce4;
                 }
             }
@@ -109,8 +110,8 @@
                 color: #cfccf7;
 
                 .result-card-message-title {
-                    font-size: 28px;
-                    font-weight: bold;
+                    font-size: 30px;
+                    font-family: "HankenExtraBold" 'Times New Roman', Times, serif;
                     color: #fffeff;
                     margin: 0;
                     margin-bottom: 30px;
@@ -118,6 +119,7 @@
 
                 .result-card-message-text {
                     font-size: 18px;
+                    font-family: "HankenRegular" 'Times New Roman', Times, serif;
                     line-height: 22px;
                     color: #c1bfff;
                     margin: 0;
@@ -137,7 +139,7 @@
                 height: 515px;
 
                 .summary-card-heading {
-                    font-weight: bold;
+                    font-family: "HankenExtraBold" 'Times New Roman', Times, serif;
                     margin: 0;
                     margin-top: 46px;
                     margin-bottom: 36px;
@@ -177,17 +179,18 @@
                     }
                     .status-item-title{
                         font-size: 18px;
-                        font-weight: bold;
+                        font-family: "HankenBold" 'Times New Roman', Times, serif;
                     }
                     .status-item-result{
                         font-size: 18px;
-                        font-weight: bold;
+                        font-family: "HankenExtraBold" 'Times New Roman', Times, serif;
                         margin-right: 8px;
                     }
                     .status-item-percent-label{
                         display: none;
                     }
                     .status-item-max{
+                        font-family: "HankenMedium" 'Times New Roman', Times, serif;
                         color: #a19fa4;
                     }
                     .status-item-title-color-red{
@@ -209,7 +212,7 @@
                 }
                     .continue-btn{
                         font-size: 18px;
-                        font-weight: 600;
+                        font-family: "HankenExtraBold" 'Times New Roman', Times, serif;
                         width: 290px;
                         height: 56px;
                         margin-top: 24px;

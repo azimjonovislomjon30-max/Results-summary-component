@@ -66,7 +66,7 @@
   align-items: center;
 }
 .container .result-box .result-card .result-title {
-  font-family: "Hankenbold" sans-serif;
+  font-family: "Hankenbold" "Times New Roman", Times, serif;
   color: #cfccf7;
   margin: 0;
   margin-top: 45px;
@@ -82,7 +82,7 @@
 }
 .container .result-box .result-card .result-circle .result-score {
   font-size: 62px;
-  font-family: "HankenExtraBold" sans-serif;
+  font-family: "HankenExtraBold" "Times New Roman", Times, serif;
   font-weight: 900px;
   color: #ffffff;
   margin: 0;
@@ -91,6 +91,7 @@
   line-height: 1;
 }
 .container .result-box .result-card .result-circle .result-score-of {
+  font-family: "HankenMedium" "Times New Roman", Times, serif;
   color: #837ce4;
 }
 .container .result-box .result-card .result-card-message {
@@ -100,14 +101,15 @@
   color: #cfccf7;
 }
 .container .result-box .result-card .result-card-message .result-card-message-title {
-  font-size: 28px;
-  font-weight: bold;
+  font-size: 30px;
+  font-family: "HankenExtraBold" "Times New Roman", Times, serif;
   color: #fffeff;
   margin: 0;
   margin-bottom: 30px;
 }
 .container .result-box .result-card .result-card-message .result-card-message-text {
   font-size: 18px;
+  font-family: "HankenRegular" "Times New Roman", Times, serif;
   line-height: 22px;
   color: #c1bfff;
   margin: 0;
@@ -124,7 +126,7 @@
   height: 515px;
 }
 .container .result-box .summary-card .summary-wrapper .summary-card-heading {
-  font-weight: bold;
+  font-family: "HankenExtraBold" "Times New Roman", Times, serif;
   margin: 0;
   margin-top: 46px;
   margin-bottom: 36px;
@@ -162,17 +164,18 @@
 }
 .container .result-box .summary-card .summary-wrapper .summary-card-status .status-item-title {
   font-size: 18px;
-  font-weight: bold;
+  font-family: "HankenBold" "Times New Roman", Times, serif;
 }
 .container .result-box .summary-card .summary-wrapper .summary-card-status .status-item-result {
   font-size: 18px;
-  font-weight: bold;
+  font-family: "HankenExtraBold" "Times New Roman", Times, serif;
   margin-right: 8px;
 }
 .container .result-box .summary-card .summary-wrapper .summary-card-status .status-item-percent-label {
   display: none;
 }
 .container .result-box .summary-card .summary-wrapper .summary-card-status .status-item-max {
+  font-family: "HankenMedium" "Times New Roman", Times, serif;
   color: #a19fa4;
 }
 .container .result-box .summary-card .summary-wrapper .summary-card-status .status-item-title-color-red {
@@ -193,7 +196,7 @@
 }
 .container .result-box .summary-card .summary-wrapper .continue-btn {
   font-size: 18px;
-  font-weight: 600;
+  font-family: "HankenExtraBold" "Times New Roman", Times, serif;
   width: 290px;
   height: 56px;
   margin-top: 24px;
