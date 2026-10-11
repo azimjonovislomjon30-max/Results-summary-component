@@ -38,3 +38,115 @@
     font-style: normal;
     font-display: swap;
 }
+.container{
+    width: 100%;
+    max-width: 1440px;
+    height: 1080px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #ecf2ff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .result-box {
+        width: 740px;
+        height: 515px;
+        background-color: #ffffff;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        border: 1px solid #1154e5;
+        margin-top: 285px;
+        border-radius: 20px;
+
+        .result-card {
+            width: 370px;
+            height: 515px;
+            border-radius: 20px;
+            background-color: #4534f2;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+            .result-title {
+                color: #cfccf7;
+                margin: 0;
+                margin-top: 45px;
+                margin-bottom: 42px;
+                text-align: center;
+            }
+            .result-circle {
+                width: 200px;
+                height: 200px;
+                text-align: center;
+                border-radius: 50%;
+                background-image: linear-gradient(180deg, #4d21c9 0%, rgba(37, 33, 201, 0.00) 100%, rgba(37, 33, 201, 0.00) 100%);
+
+                .result-score {
+                    font-size: 62px;
+                    font-weight: 900;
+                    color: #ffffff;
+                    margin: 0;
+                    margin-top: 64px;
+                    padding: 0;
+                    line-height: 1;
+                }
+
+                .result-score-of {
+                    color: #837ce4;
+                }
+            }
+            .result-card-message {
+                margin: 0;
+                margin-top: 40px;
+                text-align: center;
+                color: #cfccf7;
+
+                .result-card-message-title {
+                    font-size: 28px;
+                    font-weight: bold;
+                    color: #fffeff;
+                    margin: 0;
+                    margin-bottom: 30px;
+                }
+
+                .result-card-message-text {
+                    font-size: 18px;
+                    line-height: 22px;
+                    color: #c1bfff;
+                    margin: 0;
+                }
+            }
+        }
+        
+        .summary-card {
+            width: 370px;
+            height: 515px;
+
+            // .summary-card-heading {
+
+            // }
+
+            // .summary-card-status {
+
+            // }
+
+            // .status-item-reaction {
+
+            // }
+
+            // .status-item-memory {
+
+            // }
+
+            // .status-item-verbal {
+
+            // }
+
+            // .status-item-visual {
+
+            // }
+        }
+    }
+}
