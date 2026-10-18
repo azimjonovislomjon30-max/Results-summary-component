@@ -88,24 +88,27 @@
             .result-circle {
                 width: 200px;
                 height: 200px;
-                text-align: center;
                 border-radius: 50%;
                 background-image: linear-gradient(180deg, #4d21c9 0%, rgba(37, 33, 201, 0.00) 100%, rgba(37, 33, 201, 0.00) 100%);
+                display: flex;
+                justify-content: center;
+                align-items: center;
 
-                .result-score {
-                    font-size: 62px;
-                    font-family: 'HankenExtraBold', 'Times New Roman', Times, serif;
-                    font-weight: 900px;
-                    color: #ffffff;
-                    margin: 0;
-                    margin-top: 64px;
-                    padding: 0;
-                    line-height: 1;
-                }
-
-                .result-score-of {
-                    font-family: 'HankenMedium', 'Times New Roman', Times, serif;
-                    color: #837ce4;
+                .for-center{
+                    text-align: center;
+                        .result-score {
+                        font-size: 62px;
+                        font-family: 'HankenExtraBold', 'Times New Roman', Times, serif;
+                        font-weight: 900px;
+                        color: #ffffff;
+                        margin: 0;
+                        padding: 0;
+                        line-height: 1;
+                    }
+                    .result-score-of {
+                        font-family: 'HankenMedium', 'Times New Roman', Times, serif;
+                        color: #837ce4;
+                    }
                 }
             }
             .result-card-message {
@@ -268,7 +271,7 @@
 @media only screen and (max-width: 1200px){
   .container {
    max-width: 1150px;
-    height: 1010px;
+    height: 1000px;
   }
 }
 @media only screen and (max-width: 1150px){
@@ -314,18 +317,18 @@
 @media only screen and (max-width: 765px){
   .container{
     margin: 0;
-    height: 1000px;
-    border: 1px solid red;
     .result-box{
-        width: 675px;
-        height: 808px;
+        width: 100%;
+        max-width: 372px;
+        height: 880px;
         display: flex;
         flex-direction: column;
         margin: 0;
         border-radius: 0px;
+        background-color: #ffffff;
 
         .result-card{
-            height: 385px;
+            height: 400px;
             border-radius: 0px;
             border-bottom-left-radius: 20px;
             border-bottom-right-radius: 20px;
@@ -336,13 +339,16 @@
                 margin-bottom: 30px;
             }
             .result-circle{
-                width: 140px;
-                height: 140px;
-                .result-score{
-                    margin: 0;
-                    font-size: 52px;
-                    margin-top: 40px;
-                    margin-bottom: 10px;
+                width: 150px;
+                height: 150px;
+                box-sizing: border-box;
+                flex-shrink: 0;
+                .for-center{
+                    .result-score{
+                        font-size: 52px;
+                        margin-top: 35x;
+                        margin-bottom: 15px;
+                    }
                 }
             }
             .result-card-message{
@@ -353,20 +359,33 @@
                     margin-bottom: 20px;
                 }
                 .result-card-message-text{
-                    width: 260px;
+                    width: 300px;
+                    margin-bottom: 46px;
                 }
             }
         }
         .summary-card{
-
+            height: 478px;
+            background-color: #ffffff;
             .summary-wrapper {
+                width: 315px;
+
                 .summary-card-heading{
                     margin: 0;
                     margin-top: 30px;
+                    margin-bottom: 28px;
                 }
                 .continue-btn{
+                    width: 315px;
                     margin: 0;
                     padding: 0;
+                    margin-top: 8px;
+                    margin-bottom: 30px;
+                }
+                .summary-card-status{
+                    .status-item {
+                        width: 315px;
+                    }
                 }
             }
         }
@@ -382,15 +401,6 @@
     flex-direction: row;
    }
 }
-@media only screen and (max-width: 690px){
-  .container {
-   max-width: 650px;
-
-   .result-box{
-    width: 650px;
-   }
-  }
-}
 @media only screen and (max-width: 700px){
   .container {
    max-width: 650px;
@@ -399,9 +409,19 @@
    }
   }
 }
+@media only screen and (max-width: 690px){
+  .container {
+   max-width: 650px;
+   height: 990px;
+   .result-box{
+    width: 650px;
+   }
+  }
+}
 @media only screen and (max-width: 650px){
   .container {
    max-width: 600px;
+   height: 950px;
    .result-box{
     width: 600px;
    }
@@ -410,6 +430,7 @@
 @media only screen and (max-width: 600px){
   .container {
    max-width: 550px;
+   height: 900px;
    .result-box{
     width: 550px;
    }
@@ -425,8 +446,8 @@
 }
 @media only screen and (max-width: 500px){
   .container {
-   max-width: 450px;
-   height: 860px;
+    max-width: 450px;
+    height: 880px;
    .result-box{
     width: 450px;
    }
@@ -435,7 +456,6 @@
 @media only screen and (max-width: 450px){
   .container {
    max-width: 400px;
-   height: 830px;
    .result-box{
     width: 400px;
    }
@@ -444,7 +464,6 @@
 @media only screen and (max-width: 400px){
   .container {
    max-width: 375px;
-   height: 808px;
    .result-box{
     width: 375px;
    }
