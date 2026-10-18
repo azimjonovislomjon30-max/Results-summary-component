@@ -14,8 +14,8 @@
 //  Font face
 @font-face {
     font-family: 'Hankenbold';
-    src: url('/fonts/HankenGrotesk-Bold.woff2') format('woff2'),
-        url('/fonts/HankenGrotesk-Bold.woff') format('woff');
+    src: url('../fonts/HankenGrotesk-Bold.woff2') format('woff2'),
+        url('../fonts/HankenGrotesk-Bold.woff') format('woff');
     font-weight: bold;
     font-style: normal;
     font-display: swap;
@@ -24,7 +24,7 @@
 @font-face {
     font-family: 'HankenExtraBold';
     src: url('/fonts/HankenGrotesk-ExtraBold.woff2') format('woff2'),
-        url('/fonts/HankenGrotesk-ExtraBold.woff') format('woff');
+        url('../fonts/HankenGrotesk-ExtraBold.woff') format('woff');
     font-weight: 900px;
     font-style: normal;
     font-display: swap;
@@ -32,8 +32,8 @@
 
 @font-face {
     font-family: 'HankenMedium';
-    src: url('/fonts/HankenGrotesk-Medium.woff2') format('woff2'),
-        url('/fonts/HankenGrotesk-Medium.woff') format('woff');
+    src: url('../fonts/HankenGrotesk-Medium.woff2') format('woff2'),
+        url('../fonts/HankenGrotesk-Medium.woff') format('woff');
     font-weight: 500;
     font-style: normal;
     font-display: swap;
@@ -41,7 +41,7 @@
 
 @font-face {
     font-family: 'HankenRegular';
-    src: url('/fonts/HankenGrotesk-Regular.woff2') format('woff2'),
+    src: url('../fonts/HankenGrotesk-Regular.woff2') format('woff2'),
         url('/fonts/HankenGrotesk-Regular.woff') format('woff');
     font-weight: normal;
     font-style: normal;
@@ -78,7 +78,7 @@
             align-items: center;
 
             .result-title {
-                font-family: "Hankenbold" 'Times New Roman', Times, serif;
+                font-family: 'Hankenbold', 'Times New Roman', Times, serif;
                 color: #cfccf7;
                 margin: 0;
                 margin-top: 45px;
@@ -94,7 +94,7 @@
 
                 .result-score {
                     font-size: 62px;
-                    font-family: "HankenExtraBold" 'Times New Roman', Times, serif;
+                    font-family: 'HankenExtraBold', 'Times New Roman', Times, serif;
                     font-weight: 900px;
                     color: #ffffff;
                     margin: 0;
@@ -104,7 +104,7 @@
                 }
 
                 .result-score-of {
-                    font-family: "HankenMedium" 'Times New Roman', Times, serif;
+                    font-family: 'HankenMedium', 'Times New Roman', Times, serif;
                     color: #837ce4;
                 }
             }
@@ -116,7 +116,7 @@
 
                 .result-card-message-title {
                     font-size: 30px;
-                    font-family: "HankenExtraBold" 'Times New Roman', Times, serif;
+                    font-family: 'HankenExtraBold', 'Times New Roman', Times, serif;
                     color: #fffeff;
                     margin: 0;
                     margin-bottom: 30px;
@@ -125,7 +125,7 @@
                 .result-card-message-text {
                     width: 230px;
                     font-size: 18px;
-                    font-family: "HankenRegular" 'Times New Roman', Times, serif;
+                    font-family: 'HankenRegular', 'Times New Roman', Times, serif;
                     line-height: 22px;
                     color: #c1bfff;
                     margin: 0;
@@ -145,7 +145,7 @@
                 height: 515px;
 
                 .summary-card-heading {
-                    font-family: "HankenExtraBold" 'Times New Roman', Times, serif;
+                    font-family: 'HankenExtraBold', 'Times New Roman', Times, serif;
                     margin: 0;
                     margin-top: 46px;
                     margin-bottom: 36px;
@@ -185,18 +185,18 @@
                     }
                     .status-item-title{
                         font-size: 18px;
-                        font-family: "HankenBold" 'Times New Roman', Times, serif;
+                        font-family: 'HankenBold', 'Times New Roman', Times, serif;
                     }
                     .status-item-result{
                         font-size: 18px;
-                        font-family: "HankenExtraBold" 'Times New Roman', Times, serif;
+                        font-family: 'HankenExtraBold', 'Times New Roman', Times, serif;
                         margin-right: 8px;
                     }
                     .status-item-percent-label{
                         display: none;
                     }
                     .status-item-max{
-                        font-family: "HankenMedium" 'Times New Roman', Times, serif;
+                        font-family: 'HankenMedium', 'Times New Roman', Times, serif;
                         color: #a19fa4;
                     }
                     .status-item-title-color-red{
@@ -218,7 +218,7 @@
                 }
                     .continue-btn{
                         font-size: 18px;
-                        font-family: "HankenExtraBold" 'Times New Roman', Times, serif;
+                        font-family: 'HankenExtraBold', 'Times New Roman', Times, serif;
                         width: 290px;
                         height: 56px;
                         margin-top: 24px;
