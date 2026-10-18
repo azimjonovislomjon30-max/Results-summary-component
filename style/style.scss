@@ -1,3 +1,8 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
 .attribution{
   display: none;
 }
@@ -118,6 +123,7 @@
                 }
 
                 .result-card-message-text {
+                    width: 230px;
                     font-size: 18px;
                     font-family: "HankenRegular" 'Times New Roman', Times, serif;
                     line-height: 22px;
@@ -228,4 +234,219 @@
             }
         }
     }
+}
+
+/* Media code  */
+
+@media only screen and (max-width: 1440px){
+  .container {
+   max-width: 1400px;
+    height: 1060px;
+  }
+}
+@media only screen and (max-width: 1400px){
+  .container {
+   max-width: 1350px;
+  }
+}
+@media only screen and (max-width: 1350px){
+  .container {
+   max-width: 1300px;
+  }
+}
+@media only screen and (max-width: 1300px){
+  .container {
+   max-width: 1250px;
+    height: 1030px;
+  }
+}
+@media only screen and (max-width: 1250px){
+  .container {
+   max-width: 1200px;
+  }
+}
+@media only screen and (max-width: 1200px){
+  .container {
+   max-width: 1150px;
+    height: 1010px;
+  }
+}
+@media only screen and (max-width: 1150px){
+  .container {
+   max-width: 1100px;
+  }
+}
+@media only screen and (max-width: 1100px){
+  .container {
+   max-width: 1050px;
+  }
+}
+@media only screen and (max-width: 1050px){
+  .container {
+   max-width: 1000px;
+  }
+}
+@media only screen and (max-width: 1000px){
+  .container {
+   max-width: 950px;
+  }
+}
+@media only screen and (max-width: 950px){
+  .container {
+   max-width: 900px;
+  }
+}
+@media only screen and (max-width: 900px){
+  .container {
+   max-width: 850px;
+  }
+}
+@media only screen and (max-width: 850px){
+  .container {
+   max-width: 800px;
+  }
+}
+@media only screen and (max-width: 800px){
+  .container {
+   max-width: 750px;
+  }
+}
+@media only screen and (max-width: 765px){
+  .container{
+    margin: 0;
+    height: 1000px;
+    border: 1px solid red;
+    .result-box{
+        width: 675px;
+        height: 808px;
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+        border-radius: 0px;
+
+        .result-card{
+            height: 385px;
+            border-radius: 0px;
+            border-bottom-left-radius: 20px;
+            border-bottom-right-radius: 20px;
+
+            .result-title{
+                margin: 0;
+                margin-top: 30px;
+                margin-bottom: 30px;
+            }
+            .result-circle{
+                width: 140px;
+                height: 140px;
+                .result-score{
+                    margin: 0;
+                    font-size: 52px;
+                    margin-top: 40px;
+                    margin-bottom: 10px;
+                }
+            }
+            .result-card-message{
+                margin: 0;
+                .result-card-message-title{
+                    margin: 0;
+                    margin-top: 30px;
+                    margin-bottom: 20px;
+                }
+                .result-card-message-text{
+                    width: 260px;
+                }
+            }
+        }
+        .summary-card{
+
+            .summary-wrapper {
+                .summary-card-heading{
+                    margin: 0;
+                    margin-top: 30px;
+                }
+                .continue-btn{
+                    margin: 0;
+                    padding: 0;
+                }
+            }
+        }
+    }
+  }
+}
+@media only screen and (max-width: 750px){
+  .container {
+   max-width: 700px;
+  }
+  .result-box{
+    display: flex;
+    flex-direction: row;
+   }
+}
+@media only screen and (max-width: 690px){
+  .container {
+   max-width: 650px;
+
+   .result-box{
+    width: 650px;
+   }
+  }
+}
+@media only screen and (max-width: 700px){
+  .container {
+   max-width: 650px;
+   .result-box{
+    width: 650px;
+   }
+  }
+}
+@media only screen and (max-width: 650px){
+  .container {
+   max-width: 600px;
+   .result-box{
+    width: 600px;
+   }
+  }
+}
+@media only screen and (max-width: 600px){
+  .container {
+   max-width: 550px;
+   .result-box{
+    width: 550px;
+   }
+  }
+}
+@media only screen and (max-width: 550px){
+  .container {
+   max-width: 500px;
+   .result-box{
+    width: 500px;
+   }
+  }
+}
+@media only screen and (max-width: 500px){
+  .container {
+   max-width: 450px;
+   height: 860px;
+   .result-box{
+    width: 450px;
+   }
+  }
+}
+@media only screen and (max-width: 450px){
+  .container {
+   max-width: 400px;
+   height: 830px;
+   .result-box{
+    width: 400px;
+   }
+  }
+}
+@media only screen and (max-width: 400px){
+  .container {
+   max-width: 375px;
+   height: 808px;
+   .result-box{
+    width: 375px;
+   }
+  }
 }
